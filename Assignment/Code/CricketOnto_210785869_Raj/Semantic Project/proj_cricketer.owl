@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#"
+     xml:base="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasBirth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasBirth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Birthplace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasMoreTestRuns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasMoreTestRuns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#MostTestRuns"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasMostRuns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#hasMostRuns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Mostruns"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#isCaptain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#isCaptain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Captain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#mostOdiRuns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#mostOdiRuns">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Odiruns"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#batting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#batting">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#bowling -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#bowling">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#clubnumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#clubnumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#dateofbirth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#dateofbirth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#deliveries -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#deliveries">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#height">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#lastodiagainst -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#lastodiagainst">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#lastodiyear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#lastodiyear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Birthplace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Birthplace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Captain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Captain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Cricketer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#MostTestRuns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#MostTestRuns"/>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Mostruns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Mostruns"/>
+    
+
+
+    <!-- http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Odiruns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/uttkarshraj/ontologies/2022/4/proj_cricketer#Odiruns"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
